@@ -1,0 +1,38 @@
+:root{
+    --background: linear-gradient(135deg,#e6e9e956 0%,#e6e9e946 100%); /*crear variable background*/
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 100vh;
+    min-height: auto;
+    background-image:var(--background),url(fondo-imagen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*Poryectos carrusel bootstrap*/
+#proyectos a{
+    color: rgb(29, 70, 146);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.2em;
+    text-shadow: 2px 2px 2px black;
+}
+
+#proyectos a:hover{
+    text-decoration: underline;
+    color: rgb(42, 128, 185);
+}
+
+#proyectos p{
+    color: rgb(29, 70, 146);
+    font-size: 1.5em;
+}
